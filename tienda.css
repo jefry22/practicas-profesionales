@@ -1,0 +1,312 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DDD6CF;
+}
+header{
+    width: 100%;
+    background:#FBF9F7 ;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-left{
+    display: flex;
+    align-items: center;
+}
+nav .icono-menu{
+    cursor: pointer;
+    width: 40px;
+}
+
+nav .icono{
+    cursor: pointer;
+    width: 20px;
+}
+.nav-left :nth-child(1){
+    margin-right: 20px;
+}
+.container-cart{
+    position: relative;
+}
+.count-product{
+    position: absolute;
+    top: -2px;
+    right: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #F48518;
+
+}
+.logo{
+    width: 50%;
+}
+.menu{
+    display: none;    
+}
+.menu ul{
+    list-style: none;
+    padding: 0px;
+}
+
+/* fin nav */
+
+.container-sidebar{
+    width: 100%;
+    background-image: url("../assets/fondo-slides.png");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.container-title{
+    padding: 25px;
+    color: #F9F4F0;
+}
+.container-title h1{
+    font-weight: 200;
+}
+.container-title a{
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 40px;
+    color: #8F8A87;
+}
+.container-title img{
+    padding-right: 5px;
+}
+.container-title p{
+    padding: 20px 0px;
+    padding-right: 80px;
+    font-weight: 100;
+    color: #8F8A87;
+}
+.btn{
+    padding-top: 20px;
+    padding: 8px 14px;
+    font-weight: 600;
+}
+
+/*fin del header */
+
+
+.container-marcas{
+    padding: 40px 25px;
+    width: 100%;
+    text-align: center;
+}
+.container-marcas .title{
+    display: flex;
+    align-items: center;
+}
+
+.container-marcas .title img{
+    width: 25px;
+    height: 25px;
+}
+
+.container-marcas .title h2{
+    color:#24211E ;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding:0px 50px ;
+}
+
+  .container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0px;
+  }
+
+  .card {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .card .image-box {
+    width: 200px;
+    border: 1px solid #24211E;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card .image-box img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+/* Fin de la seccion marcas */
+
+.section-productos{
+    padding:0px 20px;
+}
+.section-productos h2{
+    font-weight: 400;
+}
+.section-productos .title{
+    display: flex;
+    align-items: center;
+}
+.title span{
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.container-card{
+    width: 100%;
+    padding: 20px 0px;
+    /* background: red; */
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    margin: 0px !important;
+    
+}
+.card-product{
+    width: 49%;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    background-color: #EFE9E2;
+    /* padding: 20px; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-header{
+    width: 100%;
+    position: relative;
+}
+.icon-heart{
+    width: 20px;
+    position: absolute;
+    top:-10px;
+    left: 0px;
+}
+.img-product{
+    width: 80%;
+    margin: 10px 0px;
+}
+.card-body .card-title{
+    font-size: 10px;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.card-title .icon{
+    width: 40%;
+}
+.card-info-product{
+    font-size: 12px;
+}
+.card-footer{
+    margin-top: 10px;
+    width: 100%;
+}
+.card-footer .btn{
+    width: 100%;
+    margin: 2px 0px;
+}
+.card-footer .btn-active{
+    background: #24211E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.card-footer .btn-disable{
+    background-color: #EFE9E2;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* Card promocion */
+.card-promocion{
+    width: 100%;
+    background-image: url("../assets/fondo-product-movil.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    margin: 20px 0px;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size:24px;
+}
+.card-promocion .logo-promocion{
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+}
+.card-promocion-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top:60px ;
+}
+.card-promocion-title h3{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card-promocion-title span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-promocion-title a{
+    font-size: 14px;
+    color: #24211E;
+    padding-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-promocion-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.card-promocion-image img{
+    width: 60%;
+}
+.card-promocion-empresas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.card-promocion-empresas  img{
+    width: 80%;
+}
+.card-promocion-footer{
+    background-color: #24211E;
+    color: #DDD6CF;
+    font-size: 16px;
+    text-align: center;
+}
+@media only screen and (min-width: 1024px)  {
+    .swiper {
+        width: 80%;
+        height: 500px;
+    }
+}
